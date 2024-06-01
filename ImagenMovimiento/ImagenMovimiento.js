@@ -1,5 +1,4 @@
 function preload() {
-  
   img = loadImage('data/cruz.png')
 }
 
@@ -16,7 +15,6 @@ function draw() {
   // Dibuja la imagen en la posición actual (x, y)
   image(img, x, y);
 
-  
   if (keyIsDown(65)) {
     x -= 5;
   }

@@ -10,14 +10,11 @@ function setup() {
 
 function draw() {
   frameCountSeconds++; // Incrementa el conteo de cuadros
-  
   if (frameCount % 120 == 0) { // Verifica si ha pasado 2 segundo
     counter+=2; // Incrementa el contador
     textSize(30);
      background(255);
-    text(counter,240, 100);
-   
-    
+    text(counter,240, 100); 
   }
   
   if (counter % 3 == 0) { // Cambia el color cada 2 segundos
